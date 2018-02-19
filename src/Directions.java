@@ -12,19 +12,19 @@ public enum Directions {
 
 
 
-    public static String convert(int num){
+    public static Directions convert(int num){
 
         switch (num){
             case 0:
-                return NORTH.name();
+                return NORTH;
             case 1:
-                return EAST.name();
+                return EAST;
             case 2:
-                return SOUTH.name();
+                return SOUTH;
             case 3:
-                return WEST.name();
+                return WEST;
                 default:
-                    return UNDEFINED.name();
+                    return UNDEFINED;
         }
     }
 
